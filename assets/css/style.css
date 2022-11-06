@@ -1,3 +1,39 @@
 :root {
 
 }
+
+main {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#hello-bar {
+    width: 100%;
+}
+
+#bio {
+    width: 50%;
+    border: 3px solid red;
+}
+
+div > p {
+    position: absolute;
+    top: 50%;
+    margin-left: 100px;
+    border: 3px solid blue;
+}
+
+#profile-image {
+    width: 50%;
+    border:  3px solid red;
+}
+
+img {
+    width: 100%;
+    padding: 100px;
+    border: 3px solid red;
+}
+
+main h2 {
+    width: 100%;
+}
