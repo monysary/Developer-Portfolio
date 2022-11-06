@@ -27,7 +27,7 @@ li {
 
 li:hover {
     box-shadow: 0 3px 0 white;
-    font-size: 30px;
+    transform: translateY(-5px);
     cursor: pointer;
 }
 
