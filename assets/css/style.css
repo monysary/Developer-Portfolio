@@ -15,7 +15,7 @@ ul {
     display: flex;
     width: 40%;
     justify-content: space-between;
-    border: 3px solid red;
+    /* border: 3px solid red; */
 }
 
 li {
@@ -38,7 +38,7 @@ main {
 
 #hello-bar {
     width: 100%;
-    border: 3px solid blue;
+    /* border: 3px solid blue; */
     padding-top: 50px;
     padding-left: 100px;
     margin-top: 20px;
@@ -47,11 +47,13 @@ main {
 #hello-bar > h1 {
     font-size: 70px;
     color: white;
+    font-family: 'Gill Sans', sans-serif;
+    font-style: italic;
 }
 
 #bio {
     width: 50%;
-    border: 3px solid red;
+    /* border: 3px solid red; */
 }
 
 div > p {
@@ -59,21 +61,49 @@ div > p {
     margin-top: 100px;
     margin-left: 100px;
     color: white;
-    border: 3px solid blue;
+    /* border: 3px solid blue; */
 }
 
 #profile-image {
     width: 50%;
-    border:  3px solid red;
+    /* border:  3px solid red; */
 }
 
 img {
     width: 100%;
     padding: 100px;
-    border: 3px solid red;
+    /* border: 3px solid red; */
 }
 
 main h2 {
     width: 100%;
     color: white;
+}
+
+.main-header {
+    margin: 0px 100px;
+    font-size: 40px;
+}
+
+#projects-section {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    justify-content: space-around;
+    border: 3px solid blue;
+}
+
+.project-icon {
+    width: 30%;
+    padding: 50px;
+    transition: 1s;
+    border: 3px solid red;
+}
+
+.project-icon:hover {
+    padding: 30px;
+}
+
+.project-icon > img {
+    padding: 0px;
 }
