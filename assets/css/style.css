@@ -2,6 +2,35 @@
 
 }
 
+* {
+    background-color: black;
+}
+
+nav {
+    margin-top: 20px;
+    margin-left: 50px;
+}
+
+ul {
+    display: flex;
+    width: 40%;
+    justify-content: space-between;
+    border: 3px solid red;
+}
+
+li {
+    font-size: 25px;
+    color: white;
+    text-decoration: none;
+    transition: 0.5s;
+}
+
+li:hover {
+    box-shadow: 0 3px 0 white;
+    font-size: 30px;
+    cursor: pointer;
+}
+
 main {
     display: flex;
     flex-wrap: wrap;
@@ -9,6 +38,15 @@ main {
 
 #hello-bar {
     width: 100%;
+    border: 3px solid blue;
+    padding-top: 50px;
+    padding-left: 100px;
+    margin-top: 20px;
+}
+
+#hello-bar > h1 {
+    font-size: 70px;
+    color: white;
 }
 
 #bio {
@@ -17,9 +55,10 @@ main {
 }
 
 div > p {
-    position: absolute;
-    top: 50%;
+    /* position: absolute; */
+    margin-top: 100px;
     margin-left: 100px;
+    color: white;
     border: 3px solid blue;
 }
 
@@ -36,4 +75,5 @@ img {
 
 main h2 {
     width: 100%;
+    color: white;
 }
