@@ -3,9 +3,8 @@
 }
 
 nav {
-    margin-right: 100px;
     display: flex;
-    justify-content: end;
+    justify-content: center;
 }
 
 ul {
