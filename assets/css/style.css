@@ -102,6 +102,7 @@ main h2 {
 
 .project-icon:hover {
     padding: 30px;
+    cursor: pointer;
 }
 
 .project-icon > img {
