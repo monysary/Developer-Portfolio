@@ -14,7 +14,7 @@ ul {
     justify-content: space-between;
 }
 
-li {
+.nav-link {
     font-size: 20px;
     font-weight: bold;
     text-decoration: none;
@@ -22,7 +22,7 @@ li {
     transition: 0.5s;
 }
 
-li:hover {
+.nav-link:hover {
     box-shadow: 0 3px 0 black;
     transform: translateY(-5px);
     cursor: pointer;
@@ -78,7 +78,7 @@ main h2 {
     margin: 0px 200px;
     font-size: 50px;
     border-bottom: 3px solid darkgray;
-    padding-bottom: 5px;
+    padding-bottom: 10px;
 }
 
 #projects-slogan {
