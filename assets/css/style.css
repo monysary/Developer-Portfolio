@@ -29,14 +29,19 @@ ul {
 }
 
 .nav-link:hover {
-    box-shadow: 0 3px 0 black;
     transform: translateY(-5px);
-    cursor: pointer;
 }
 
 a {
     text-decoration: none;
     color: black;
+    transition: 0.5s;
+}
+
+a:hover {
+    box-shadow: 0 3px 0 black;
+    transform: translateY(-5px);
+    cursor: pointer;
 }
 
 /* Main section of website */
