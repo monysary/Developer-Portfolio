@@ -211,6 +211,10 @@ footer {
         margin: 10px 50px;
     }
 
+    #projects-section {
+        padding: 0;
+    }
+
     #contacts-link {
         margin: 10px 0px 0px 50px;
     }
