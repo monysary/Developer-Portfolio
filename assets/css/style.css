@@ -107,7 +107,21 @@ img {
     font-size: 25px;
 }
 
-/* Projects section */
+/* About Me section */
+#about-me-header {
+    width: 100%;
+    font-size: 50px;
+    border-bottom: 3px solid darkgray;
+    padding-bottom: 10px;
+}
+
+.about-me {
+    margin-top: 20px;
+    font-size: 18px;
+    line-height: 1.5;
+}
+
+/* My Projects section */
 #projects-section {
     display: flex;
     flex-wrap: wrap;
