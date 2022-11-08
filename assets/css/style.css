@@ -183,9 +183,7 @@ footer {
 /* Media Query for tablets and phones held sideways*/
 @media screen and (max-width: 1024px) {
     ul {
-        display: flex;
         width: 75%;
-        justify-content: space-between;
     }
     
     #hello-bar {
@@ -225,5 +223,24 @@ footer {
 
 /* Media Query for phones held up-right */
 @media screen and (max-width: 600px) {
+    ul {
+        width: 100%;
+        justify-content: space-around;
+    }
+
+    .nav-button{
+        padding: 10px;
+    }
+
+    #hello-bar {
+        margin-top: 40px;
+    }
+
+    #hello-bar > h1 {
+        font-size: 40px;
+    }
     
+    #hello-bar h2 {
+        font-size: 15px;
+    }
 }
