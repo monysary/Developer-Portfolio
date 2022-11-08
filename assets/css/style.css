@@ -20,7 +20,7 @@ ul {
     justify-content: space-between;
 }
 
-.nav-link {
+.nav-button {
     font-size: 20px;
     font-weight: bold;
     text-decoration: none;
@@ -28,17 +28,17 @@ ul {
     transition: 0.5s;
 }
 
-.nav-link:hover {
+.nav-button:hover {
     transform: translateY(-5px);
 }
 
-a {
+.nav-link {
     text-decoration: none;
     color: black;
     transition: 0.5s;
 }
 
-a:hover {
+.nav-link:hover {
     box-shadow: 0 3px 0 black;
     transform: translateY(-5px);
     cursor: pointer;
@@ -82,11 +82,11 @@ main {
     width: auto;
 }
 
-#profile-image {
+#profile-image-box {
     width: 50%;
 }
 
-img {
+#profile-image {
     width: 100%;
     padding: 100px 100px 0px 100px;
 }
@@ -142,7 +142,7 @@ img {
 }
 
 .project-icon-main {
-    width: 55%;
+    width: 60%;
     padding: 25px;
     transition: 1s;
 }
@@ -156,6 +156,15 @@ img {
 .project-icon > img,
 .project-icon-main > img {
     padding: 0px;
+}
+
+#project-image-main {
+    width: 100%;
+    padding: 0px;
+}
+
+.project-image {
+    width: 100%;
 }
 
 /* Contact Me section */
