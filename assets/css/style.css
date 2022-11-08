@@ -93,24 +93,24 @@ img {
     flex-wrap: wrap;
     justify-content: center;
     justify-content: space-around;
-    padding: 0px 50px;
+    padding: 0px 100px;
 }
 
 .project-icon {
     width: 30%;
-    padding: 50px;
+    padding: 25px;
     transition: 1s;
 }
 
 .project-icon-main {
     width: 55%;
-    padding: 50px;
+    padding: 25px;
     transition: 1s;
 }
 
 .project-icon:hover,
 .project-icon-main:hover {
-    padding: 30px;
+    padding: 10px;
     cursor: pointer;
 }
 
