@@ -246,4 +246,27 @@ footer {
     #hello-bar h2 {
         font-size: 15px;
     }
+
+    #about-me-section {
+        flex-wrap: wrap-reverse;
+    }
+
+    #bio,
+    #profile-image-box {
+        width: 100%;
+    }
+
+    #bio > ul {
+        margin: 50px 50px 0px 50px;
+    }
+
+    .project-icon-main {
+        width: 100%;
+        padding: 10px 25px;
+    }
+
+    .project-icon {
+        width: 50%;
+        padding: 10px 25px;
+    }
 }
