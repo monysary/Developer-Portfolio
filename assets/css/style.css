@@ -180,8 +180,8 @@ footer {
     padding: 30px;
 }
 
-/* Media Query */
-@media screen and (max-width: 1000px) {
+/* Media Query for tablets and phones held sideways*/
+@media screen and (max-width: 1024px) {
     ul {
         display: flex;
         width: 75%;
@@ -193,13 +193,16 @@ footer {
     }
 
     #bio > ul {
-        margin: 100px 0px 0px 50px;
+        margin: 50px 0px 0px 50px;
     }
-
     .about-me {
         font-size: 15px;
         margin-top: 10px;
         line-height: normal;
+    }
+
+    #profile-image {
+        padding: 50px 50px 0px 50px;
     }
 
     #my-projects,
@@ -218,4 +221,9 @@ footer {
     #contacts-link {
         margin: 10px 0px 0px 50px;
     }
+}
+
+/* Media Query for phones held up-right */
+@media screen and (max-width: 600px) {
+    
 }
