@@ -40,10 +40,13 @@ ul {
 }
 
 /* Main section of website */
-main {
+/* Sectioning about me for media query: max-width 600px */
+main,
+#about-me-section {
     display: flex;
     flex-wrap: wrap;
 }
+
 
 /* "Hi. I'm Mony." Banner */
 #hello-bar {
@@ -118,7 +121,7 @@ main {
 
 .about-me {
     margin-top: 20px;
-    font-size: 18px;
+    font-size: 20px;
     line-height: 1.5;
 }
 
@@ -181,7 +184,7 @@ footer {
 }
 
 /* Media Query for tablets and phones held sideways*/
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 1100px) {
     ul {
         width: 75%;
     }
