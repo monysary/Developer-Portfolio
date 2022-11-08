@@ -2,7 +2,13 @@
 
 }
 
-/* Navigation bar elements */
+/* Navigation bar */
+header {
+    position: fixed;
+    width: 100%;
+    background-color: white;
+}
+
 nav {
     display: flex;
     justify-content: center;
@@ -28,6 +34,11 @@ ul {
     cursor: pointer;
 }
 
+a {
+    text-decoration: none;
+    color: black;
+}
+
 /* Main section of website */
 main {
     display: flex;
@@ -39,6 +50,7 @@ main {
     width: 100%;
     background-image: linear-gradient(to right, rgb(0, 0, 100), black);
     color: white;
+    margin-top: 60px;
     padding-top: 50px;
     padding-left: 200px;
 }
@@ -71,16 +83,23 @@ main {
 
 img {
     width: 100%;
-    padding: 100px;
+    padding: 100px 100px 0px 100px;
 }
 
 /* Section headers */
-.main-header {
+.main-header,
+#my-projects,
+#contact-me {
     width: 100%;
     margin: 0px 200px 0px 200px;
     font-size: 50px;
     border-bottom: 3px solid darkgray;
     padding-bottom: 10px;
+}
+
+#my-projects,
+#contact-me {
+    padding-top: 60px;
 }
 
 #projects-slogan {
@@ -94,7 +113,7 @@ img {
     flex-wrap: wrap;
     justify-content: center;
     justify-content: space-around;
-    padding: 0px 100px 50px 100px;
+    padding: 0px 100px 0px 100px;
 }
 
 .project-icon {
