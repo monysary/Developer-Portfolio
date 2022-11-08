@@ -2,6 +2,7 @@
 
 }
 
+/* Navigation bar elements */
 nav {
     display: flex;
     justify-content: center;
@@ -27,11 +28,13 @@ ul {
     cursor: pointer;
 }
 
+/* Main section of website */
 main {
     display: flex;
     flex-wrap: wrap;
 }
 
+/* "Hi. I'm Mony." Banner */
 #hello-bar {
     width: 100%;
     background-image: linear-gradient(to right, rgb(0, 0, 100), black);
@@ -51,6 +54,7 @@ main {
     padding-bottom: 5px;
 }
 
+/* Bio section */
 #bio {
     width: 50%;
 }
@@ -69,11 +73,9 @@ img {
     padding: 100px;
 }
 
-main h2 {
-    width: 100%;
-}
-
+/* Section headers */
 .main-header {
+    width: 100%;
     margin: 0px 200px;
     font-size: 50px;
     border-bottom: 3px solid darkgray;
@@ -85,12 +87,13 @@ main h2 {
     font-size: 25px;
 }
 
+/* Projects section */
 #projects-section {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
     justify-content: space-around;
-    margin-bottom: 100px;
+    padding: 0px 50px;
 }
 
 .project-icon {
@@ -99,11 +102,19 @@ main h2 {
     transition: 1s;
 }
 
-.project-icon:hover {
+.project-icon-main {
+    width: 55%;
+    padding: 50px;
+    transition: 1s;
+}
+
+.project-icon:hover,
+.project-icon-main:hover {
     padding: 30px;
     cursor: pointer;
 }
 
-.project-icon > img {
+.project-icon > img,
+.project-icon-main > img {
     padding: 0px;
 }
