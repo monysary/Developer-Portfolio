@@ -235,12 +235,24 @@ footer {
         padding: 10px;
     }
 
+    .nav-link,
+    #contacts-link > p {
+        font-size: 15px;
+    }
+
     #hello-bar {
         margin-top: 40px;
     }
 
-    #hello-bar > h1 {
+    #hello-bar > h1,
+    #about-me-header,
+    #my-projects,
+    #contact-me {
         font-size: 40px;
+    }
+
+    #projects-slogan {
+        font-size: 20px;
     }
     
     #hello-bar h2 {
