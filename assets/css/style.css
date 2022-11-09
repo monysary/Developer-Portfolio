@@ -1,3 +1,7 @@
+* {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+}    
+
 /* Navigation bar */
 header {
     position: fixed;
@@ -61,7 +65,6 @@ main,
 
 #hello-bar > h1 {
     font-size: 70px;
-    font-family: 'Gill Sans', sans-serif;
     font-style: italic;
 }
 
