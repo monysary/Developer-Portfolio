@@ -6,7 +6,7 @@ This is my first developer portfolio website. This portfolio website highlights 
 
 ## Installation
 
-Load the webpage using any browser by using the following link: 
+Load the webpage using any browser by using the following link: https://monysary.github.io/Developer-Portfolio/
 
 ## Usage
 
