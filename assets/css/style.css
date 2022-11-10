@@ -5,6 +5,7 @@
 /* Navigation bar */
 header {
     position: fixed;
+    z-index: 99;
     width: 100%;
     background-color: white;
 }
@@ -168,6 +169,37 @@ main,
 
 .project-image {
     width: 100%;
+}
+
+/* Tool tip for placeholder projects */
+.tool-tip-text {
+    visibility: hidden;
+    background-color: rgb(70, 70, 70);
+    color: white;
+    text-align: center;
+    width: 50%;
+    padding: 5px;
+    border-radius: 20px;
+    position: relative;
+    display: block;
+    margin: 0 auto;
+    z-index: 1;
+    top: -80%;
+}
+
+.tool-tip-text::after {
+    content: "";
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    margin-left: -10px;
+    border-width: 10px;
+    border-style: solid;
+    border-color:  rgb(70, 70, 70) transparent transparent transparent;
+}
+
+.project-icon:hover .tool-tip-text {
+    visibility: visible;
 }
 
 /* Contact Me section */
