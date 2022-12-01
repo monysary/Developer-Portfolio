@@ -135,25 +135,23 @@ main,
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    justify-content: space-around;
-    padding: 0px 100px 0px 100px;
+    justify-content: space-evenly;
 }
 
 .project-icon {
-    width: 30%;
     padding: 25px;
     transition: 1s;
+    display: grid;
+    align-self: center;
 }
 
 .project-icon-main {
-    width: 60%;
     padding: 25px;
     transition: 1s;
 }
 
 .project-icon:hover,
 .project-icon-main:hover {
-    padding: 10px;
     cursor: pointer;
 }
 
@@ -168,6 +166,10 @@ main,
 }
 
 .project-image {
+    width: 500px;
+}
+
+.placeholder-image {
     width: 300px;
 }
 
@@ -314,7 +316,19 @@ footer {
     }
 
     .project-icon {
-        width: 50%;
+        width: 100%;
         padding: 10px 25px;
+    }
+
+    .project-image-main,
+    .project-image,
+    .placeholder-image {
+        width: 300px;
+        margin: 0 auto;
+    }
+
+    .project-icon-main,
+    .project-icon {
+        padding: 0;
     }
 }
